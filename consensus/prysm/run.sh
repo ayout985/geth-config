@@ -1,0 +1,1 @@
+nohup ./prysm.sh beacon-chain --accept-terms-of-use --datadir /mnt/sdb1/ethereum/consensus/data --execution-endpoint=$HOME/.ethereum/goerli/geth.ipc --prater --genesis-state=genesis.ssz --force-clear-db > prysm.log 2>&1 &
